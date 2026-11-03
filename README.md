@@ -1,11 +1,11 @@
 # MIPS Architecture: Single-Cycle & Pipeline
 
-## 💻 Overview
+## Overview
 A modular implementation of the **32-bit MIPS architecture**, exploring two fundamental paradigms: **Single-Cycle** (for simplicity and RTL analysis) and **Pipeline** (for performance and efficient execution). The project demonstrates hazard management, data forwarding, and the execution of complex algorithms at the register level.
 
 ---
 
-## 🤍 Tech Stack
+## Tech Stack
 * **Language:** VHDL (VHSIC Hardware Description Language)
 * **Tools:** Vivado
 * **Architectures:** Single-Cycle, Pipeline (5 stages: IF, ID, EX, MEM, WB)
@@ -16,7 +16,7 @@ A modular implementation of the **32-bit MIPS architecture**, exploring two fund
 
 ---
 
-## 🎀 Core Functionality
+## Core Functionality
 * **Data Analysis Algorithm:** Solving the problem of "Counting positive and odd values in an array of N elements".
     * **Inputs:** `N` (read from address 4), Array (starting at address 8).
     * **Output:** Result written to address 0.
@@ -25,7 +25,7 @@ A modular implementation of the **32-bit MIPS architecture**, exploring two fund
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 * **`single-cycle`**: Basic implementation where each instruction executes in a single clock cycle.
 * **`pipeline`**: Advanced 5-stage implementation, including specific control units for hazards.
 * **`documentatie`**: Control signal tables, RTL diagrams, and logic documentation for the problem.
