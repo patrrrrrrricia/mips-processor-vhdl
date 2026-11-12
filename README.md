@@ -9,9 +9,9 @@ A modular implementation of the **32-bit MIPS architecture**, exploring two fund
 * **Language:** VHDL 
 * **Tools:** Vivado
 * **Architectures:** Single-Cycle, Pipeline (5 stages: IF, ID, EX, MEM, WB)
-
-![VHDL](https://img.shields.io/badge/VHDL-Hardware_Design-%23FF69B4.svg?style=for-the-badge&logo=vhdl&logoColor=white) 
-![MIPS](https://img.shields.io/badge/MIPS-Architecture-%23FF69B4.svg?style=for-the-badge&logo=microchip&logoColor=white)
+  
+![VHDL](https://img.shields.io/badge/VHDL-Hardware_Design-ECCACB.svg?style=for-the-badge&logo=vhdl&logoColor=3B3B3B) 
+![MIPS](https://img.shields.io/badge/MIPS-Architecture-ECCACB.svg?style=for-the-badge&logo=microchip&logoColor=3B3B3B)
 
 ---
 
